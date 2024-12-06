@@ -1,0 +1,22 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+    min-width: 416px;
+    min-height: 710px;
+    align-items: center;
+    gap: 23px;
+    background-color: #EFEEF6;
+}
+
+.category a {
+    text-decoration: none;
+    color: #5C6A79
+}
+
+.category a:hover,
+.category.active a {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    display: list-item;
+}

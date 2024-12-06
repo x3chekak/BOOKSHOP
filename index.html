@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="stylesheet" type="text/css" href="dist/main.css">
+    <title>BOOKSHOP</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <h1>Bookshop</h1>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav_navlist">
+                <li><a class="header__link" href="#">BOOKS</a></li>
+                <li><a class="header__link" href="#">AUDIOBOOKS</a></li>
+                <li><a class="header__link" href="#">STATIONERY & GIFTS</a></li>
+                <li><a class="header__link" href="#">BLOG</a></li>
+            </ul>
+            <div class="header__nav_burger">
+                <button type="button" class="header__button">
+                    <div><img src="img/burger.svg"></div>
+                </button>
+            </div>
+        </nav>
+        <div class="header_buttons">
+        <button type="button" class="header__button">
+            <div><img src="img/user.svg"></div>
+        </button>
+        <button type="button" class="header__button">
+            <div><img src="img/search.svg"></div>
+        </button>
+        <button type="button" class="header__button shopBag">
+            <img class="bagItem" src="img/shopBag.svg">
+            <div class="redDot">
+                <span id="cart-count">0</span>
+            </div>
+        </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="slider">
+            <div class="slider__images"></div>
+            <a href="#">
+            <div class="slider__promo1">
+                <h4>CHANGE OLD BOOK ON NEW &#10230;</h4>
+            </div>
+            </a>
+            <a href="#">
+            <div class="slider__promo2">
+                <h4>TOP 100 BOOKS 2022 &#10230;</h4>
+            </div>
+            </a>
+        </section>
+
+        <section class="container__content">
+            <div class="categories">
+
+            </div>
+            <div class="bookList">
+                
+
+            </div>
+            
+        </section>
+        <footer class="footer">
+            <div class="btn">
+                <button class="loadMore">LOAD MORE</button>
+            </div>
+
+        </footer>
+
+
+    </main>
+    <script src="dist/main.js"></script>
+</body>
